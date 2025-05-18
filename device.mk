@@ -6,3 +6,8 @@
 #
 
 LOCAL_PATH := device/xiaomi/beryllium
+
+# QCOM Decryption
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
