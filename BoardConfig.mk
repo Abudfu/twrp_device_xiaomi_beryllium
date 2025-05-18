@@ -118,3 +118,9 @@ TWRP_INCLUDE_LOGCAT := true
 
 # QCOM Decryption
 BOARD_USES_QCOM_FBE_DECRYPTION := true
+
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
+BOARD_SUPPRESS_SECURE_ERASE := true
+TARGET_USES_UEFI := true
