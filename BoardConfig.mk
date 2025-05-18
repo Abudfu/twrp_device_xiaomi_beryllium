@@ -112,6 +112,7 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 1023
 TW_DEFAULT_BRIGHTNESS := 420
+TWRP_INCLUDE_LOGCAT := true
 
 # QCOM Decryption
 BOARD_USES_QCOM_FBE_DECRYPTION := true
