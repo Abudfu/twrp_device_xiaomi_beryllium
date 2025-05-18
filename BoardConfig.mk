@@ -109,6 +109,7 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 
 # QCOM Decryption
 BOARD_USES_QCOM_FBE_DECRYPTION := true
