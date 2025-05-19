@@ -10,6 +10,9 @@ LOCAL_PATH := device/xiaomi/beryllium
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := beryllium
+
 # QCOM Decryption
 PRODUCT_PACKAGES += \
     qcom_decrypt \
